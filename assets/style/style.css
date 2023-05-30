@@ -120,6 +120,27 @@ header .logo::after {
   gap: 0.8rem;
 }
 
+#company-call-out {
+  padding: 4rem 2rem;
+  background-color: #27282e;
+}
+
+#company-call-out .company-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 1.6rem;
+  column-gap: 1.6rem;
+  row-gap: 1.6rem;
+}
+
+#company-call-out .company-list .company-item {
+  height: 9.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Page template B */
 
 /* Media Queries */
