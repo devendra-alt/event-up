@@ -1,5 +1,6 @@
 /* Project Meta */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 /* reset  */
 * {
   padding: 0;
@@ -16,10 +17,15 @@ body {
 }
 
 /* typography & colors */
+
 /* general */
+
 /* grid */
+
 /* header */
+
 /* footer */
+
 /* Page template A */
 header {
   padding: 2.4rem;
@@ -29,21 +35,26 @@ header {
   background-color: #0f1017;
   color: #fff;
 }
+
 header .logo {
   cursor: pointer;
 }
+
 header .logo > * {
   float: left;
 }
+
 header .logo > h1 {
   margin-left: 1.2rem;
   font-size: 1.6rem;
 }
+
 header .logo > h1::after {
   content: " .";
   font-weight: 800;
   font-size: 1.8rem;
 }
+
 header .logo::after {
   display: block;
   content: "";
@@ -57,15 +68,22 @@ header .logo::after {
   padding-top: 4rem;
   padding-bottom: 7rem;
 }
+
+#hero-section .hero-img-area {
+  text-align: center;
+}
+
 #hero-section .hero-content {
   color: #fff;
   padding-top: 4rem;
 }
+
 #hero-section .hero-content .action-title {
   font-size: 3.6rem;
   font-weight: 600;
   line-height: 4.536rem;
 }
+
 #hero-section .hero-content .action-description {
   padding-top: 1.6rem;
   color: #cfcfd1;
@@ -73,6 +91,7 @@ header .logo::after {
   font-size: 1.6rem;
   line-height: 2.8rem;
 }
+
 #hero-section .hero-content .hero-btn {
   width: 100%;
   height: 5.4rem;
@@ -82,13 +101,16 @@ header .logo::after {
   display: block;
   cursor: pointer;
 }
+
 #hero-section .hero-content .hero-btn:last-child {
   margin-top: 1.6rem;
 }
+
 #hero-section .hero-content .create-conference-btn {
   background-color: #e14817;
   margin-top: 4rem;
 }
+
 #hero-section .hero-content .watch-story-btn {
   background: transparent;
   border: 0.1rem solid #fff;
@@ -99,4 +121,5 @@ header .logo::after {
 }
 
 /* Page template B */
-/* Media Queries *//*# sourceMappingURL=style.css.map */
+
+/* Media Queries */
