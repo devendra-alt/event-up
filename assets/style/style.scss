@@ -133,12 +133,14 @@ header {
 #company-call-out {
   padding: 4rem 2rem;
   background-color: #27282e;
+
   .company-list {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 1.6rem;
     row-gap: 1.6rem;
+
     .company-item {
       // width: 14.6rem;
       height: 9.4rem;
