@@ -153,14 +153,18 @@ header {
 
 #info {
   @include left-right-padding-mobile();
+
   padding-top: 5.6rem;
   background-color: #f8f8f8;
+
   .info-cards {
     list-style: none;
+
     .info-card {
       .card-content {
         margin-top: 3.2rem;
         padding-bottom: 5.6rem;
+
         & > h5 {
           font-weight: 600;
           font-size: 2.8rem;
@@ -174,11 +178,13 @@ header {
           line-height: 2.8rem;
           color: #57585d;
           margin-top: 1.6rem;
+
           & > span {
             font-weight: 500;
           }
         }
       }
+
       &:last-child {
         text-align: center;
         padding-top: 5.6rem;
@@ -189,24 +195,30 @@ header {
 
 #features {
   @include left-right-padding-mobile();
+
   background-color: $neutral-color;
   color: #fff;
   padding-top: 5.6rem;
   padding-bottom: 8rem;
+
   .features-list {
     list-style: none;
+
     .features-card {
       .feature-content {
         padding-top: 3.2rem;
+
         & > p {
           font-weight: 400;
           font-size: 1.6rem;
           line-height: 2.8rem;
           color: #cfcfd1;
+
           &:first-child {
             font-size: 1.2rem;
             line-height: 1.44rem;
             color: #9f9fa2;
+
             &::before {
               content: '';
               display: inline-block;
@@ -217,6 +229,7 @@ header {
             }
           }
         }
+
         & > h5 {
           font-weight: 600;
           font-size: 2.8rem;
@@ -224,15 +237,16 @@ header {
           padding-top: 1.6rem;
           padding-bottom: 2.4rem;
         }
+
         & > ul {
           list-style: none;
           padding: 4rem 0;
           color: #fff;
+
           & > li {
             font-size: 1.6rem;
             font-weight: 400;
             line-height: 2.8rem;
-
             display: flex;
             align-items: center;
             gap: 1.2rem;
