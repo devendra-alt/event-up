@@ -141,6 +141,121 @@ header .logo::after {
   align-items: center;
 }
 
+#info {
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  padding-top: 5.6rem;
+  background-color: #f8f8f8;
+}
+
+#info .info-cards {
+  list-style: none;
+}
+
+#info .info-cards .info-card .card-content {
+  margin-top: 3.2rem;
+  padding-bottom: 5.6rem;
+}
+
+#info .info-cards .info-card .card-content > h5 {
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 3.64rem;
+  color: #0f1017;
+}
+
+#info .info-cards .info-card .card-content > p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: #57585d;
+  margin-top: 1.6rem;
+}
+
+#info .info-cards .info-card .card-content > p > span {
+  font-weight: 500;
+}
+
+#info .info-cards .info-card:last-child {
+  text-align: center;
+  padding-top: 5.6rem;
+}
+
+#features {
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  background-color: #0f1017;
+  color: #fff;
+  padding-top: 5.6rem;
+  padding-bottom: 8rem;
+}
+
+#features .features-list {
+  list-style: none;
+}
+
+#features .features-list .features-card .feature-content {
+  padding-top: 3.2rem;
+}
+
+#features .features-list .features-card .feature-content > p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: #cfcfd1;
+}
+
+#features .features-list .features-card .feature-content > p:first-child {
+  font-size: 1.2rem;
+  line-height: 1.44rem;
+  color: #9f9fa2;
+}
+
+#features .features-list .features-card .feature-content > p:first-child::before {
+  content: "";
+  display: inline-block;
+  border-bottom: 0.13rem solid #9f9fa2;
+  width: 1.6rem;
+  vertical-align: middle;
+  margin-right: 0.8rem;
+}
+
+#features .features-list .features-card .feature-content > h5 {
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 3.64rem;
+  padding-top: 1.6rem;
+  padding-bottom: 2.4rem;
+}
+
+#features .features-list .features-card .feature-content > ul {
+  list-style: none;
+  padding: 4rem 0;
+  color: #fff;
+}
+
+#features .features-list .features-card .feature-content > ul > li {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1.6rem;
+}
+
+#features .features-list .features-card .feature-content > ul > li:last-child {
+  margin-bottom: 0;
+}
+
+#features .features-list .features-card .feature-content > ul > li::before {
+  content: "";
+  display: inline-block;
+  background-image: url(/assets/images/tick-circle.svg);
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
 /* Page template B */
 
 /* Media Queries */
