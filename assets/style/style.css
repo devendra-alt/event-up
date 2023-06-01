@@ -141,6 +141,45 @@ header .logo::after {
   align-items: center;
 }
 
+#ceo-call-out {
+  padding: 5.6rem 0;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+
+#ceo-call-out .ceo-profile > img {
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
+  background-color: #ebecf1;
+  float: left;
+  margin-right: 1.6rem;
+}
+
+#ceo-call-out .ceo-profile .ceo-details {
+  float: left;
+}
+
+#ceo-call-out .ceo-profile .ceo-details > p:first-child {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+#ceo-call-out .ceo-profile .ceo-details > p:last-child {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: #57585d;
+  padding-top: 0.4rem;
+}
+
+#ceo-call-out .ceo-profile::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 #info {
   padding-left: 2.4rem;
   padding-right: 2.4rem;
