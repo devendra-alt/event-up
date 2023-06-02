@@ -1,6 +1,5 @@
-/* Project Meta */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
+/* stylelint-disable */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 /* reset  */
 * {
   padding: 0;
@@ -13,19 +12,14 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* typography & colors */
-
 /* general */
-
 /* grid */
-
 /* header */
-
 /* footer */
-
 /* Page template A */
 header {
   padding: 2.4rem;
@@ -35,29 +29,24 @@ header {
   background-color: #0f1017;
   color: #fff;
 }
-
 header .logo {
   cursor: pointer;
 }
-
 header .logo > * {
   float: left;
 }
-
 header .logo > h1 {
   margin-left: 1.2rem;
   font-size: 1.6rem;
 }
-
 header .logo > h1::after {
-  content: " .";
+  content: ' .';
   font-weight: 800;
   font-size: 1.8rem;
 }
-
 header .logo::after {
   display: block;
-  content: "";
+  content: '';
   clear: both;
 }
 
@@ -68,22 +57,18 @@ header .logo::after {
   padding-top: 4rem;
   padding-bottom: 7rem;
 }
-
 #hero-section .hero-img-area {
   text-align: center;
 }
-
 #hero-section .hero-content {
   color: #fff;
   padding-top: 4rem;
 }
-
 #hero-section .hero-content .action-title {
   font-size: 3.6rem;
   font-weight: 600;
   line-height: 4.536rem;
 }
-
 #hero-section .hero-content .action-description {
   padding-top: 1.6rem;
   color: #cfcfd1;
@@ -91,7 +76,6 @@ header .logo::after {
   font-size: 1.6rem;
   line-height: 2.8rem;
 }
-
 #hero-section .hero-content .hero-btn {
   width: 100%;
   height: 5.4rem;
@@ -101,16 +85,13 @@ header .logo::after {
   display: block;
   cursor: pointer;
 }
-
 #hero-section .hero-content .hero-btn:last-child {
   margin-top: 1.6rem;
 }
-
 #hero-section .hero-content .create-conference-btn {
   background-color: #e14817;
   margin-top: 4rem;
 }
-
 #hero-section .hero-content .watch-story-btn {
   background: transparent;
   border: 0.1rem solid #fff;
@@ -124,7 +105,6 @@ header .logo::after {
   padding: 4rem 2rem;
   background-color: #27282e;
 }
-
 #company-call-out .company-list {
   list-style: none;
   display: grid;
@@ -133,7 +113,6 @@ header .logo::after {
   column-gap: 1.6rem;
   row-gap: 1.6rem;
 }
-
 #company-call-out .company-list .company-item {
   height: 9.4rem;
   display: flex;
@@ -145,8 +124,8 @@ header .logo::after {
   padding: 5.6rem 0;
   padding-left: 2.4rem;
   padding-right: 2.4rem;
+  position: relative;
 }
-
 #ceo-call-out .ceo-profile > img {
   width: 5.6rem;
   height: 5.6rem;
@@ -155,17 +134,14 @@ header .logo::after {
   float: left;
   margin-right: 1.6rem;
 }
-
 #ceo-call-out .ceo-profile .ceo-details {
   float: left;
 }
-
 #ceo-call-out .ceo-profile .ceo-details > p:first-child {
   font-weight: 600;
   font-size: 2rem;
   line-height: 2.8rem;
 }
-
 #ceo-call-out .ceo-profile .ceo-details > p:last-child {
   font-weight: 400;
   font-size: 1.4rem;
@@ -173,11 +149,35 @@ header .logo::after {
   color: #57585d;
   padding-top: 0.4rem;
 }
-
 #ceo-call-out .ceo-profile::after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
+}
+#ceo-call-out .ceo-message p {
+  font-weight: 500;
+  font-size: 3.2rem;
+  margin-top: 8.3rem;
+  margin-left: 5.6rem;
+}
+#ceo-call-out .ceo-message p::before {
+  position: absolute;
+  top: 15.4rem;
+  left: 2.4rem;
+  content: '';
+  background-image: url(/assets/images/quote.svg);
+  background-size: 1.47rem 1.606rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(225, 72, 23, 0.1);
+  height: 7.5rem;
+  width: 7.5rem;
+  display: block;
+  border-radius: 10rem;
+}
+#ceo-call-out .ceo-message p > img {
+  display: inline;
+  margin-bottom: 1.6rem;
 }
 
 #info {
@@ -186,23 +186,19 @@ header .logo::after {
   padding-top: 5.6rem;
   background-color: #f8f8f8;
 }
-
 #info .info-cards {
   list-style: none;
 }
-
 #info .info-cards .info-card .card-content {
   margin-top: 3.2rem;
   padding-bottom: 5.6rem;
 }
-
 #info .info-cards .info-card .card-content > h5 {
   font-weight: 600;
   font-size: 2.8rem;
   line-height: 3.64rem;
   color: #0f1017;
 }
-
 #info .info-cards .info-card .card-content > p {
   font-weight: 400;
   font-size: 1.6rem;
@@ -210,11 +206,9 @@ header .logo::after {
   color: #57585d;
   margin-top: 1.6rem;
 }
-
 #info .info-cards .info-card .card-content > p > span {
   font-weight: 500;
 }
-
 #info .info-cards .info-card:last-child {
   text-align: center;
   padding-top: 5.6rem;
@@ -228,37 +222,35 @@ header .logo::after {
   padding-top: 5.6rem;
   padding-bottom: 8rem;
 }
-
 #features .features-list {
   list-style: none;
 }
-
 #features .features-list .features-card .feature-content {
   padding-top: 3.2rem;
 }
-
 #features .features-list .features-card .feature-content > p {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.8rem;
   color: #cfcfd1;
 }
-
 #features .features-list .features-card .feature-content > p:first-child {
   font-size: 1.2rem;
   line-height: 1.44rem;
   color: #9f9fa2;
 }
-
-#features .features-list .features-card .feature-content > p:first-child::before {
-  content: "";
+#features
+  .features-list
+  .features-card
+  .feature-content
+  > p:first-child::before {
+  content: '';
   display: inline-block;
   border-bottom: 0.13rem solid #9f9fa2;
   width: 1.6rem;
   vertical-align: middle;
   margin-right: 0.8rem;
 }
-
 #features .features-list .features-card .feature-content > h5 {
   font-weight: 600;
   font-size: 2.8rem;
@@ -266,13 +258,11 @@ header .logo::after {
   padding-top: 1.6rem;
   padding-bottom: 2.4rem;
 }
-
 #features .features-list .features-card .feature-content > ul {
   list-style: none;
   padding: 4rem 0;
   color: #fff;
 }
-
 #features .features-list .features-card .feature-content > ul > li {
   font-size: 1.6rem;
   font-weight: 400;
@@ -282,19 +272,38 @@ header .logo::after {
   gap: 1.2rem;
   margin-bottom: 1.6rem;
 }
-
 #features .features-list .features-card .feature-content > ul > li:last-child {
   margin-bottom: 0;
 }
-
 #features .features-list .features-card .feature-content > ul > li::before {
-  content: "";
+  content: '';
   display: inline-block;
   background-image: url(/assets/images/tick-circle.svg);
   width: 2.4rem;
   height: 2.4rem;
 }
 
+#setup-section {
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  padding-top: 2.4rem;
+  padding-bottom: 5.6rem;
+}
+#setup-section .setup-card {
+  color: #fff;
+  background-image: url(/assets/images/setup-bg.svg);
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+#setup-section .setup-card > h5 {
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 3.64rem;
+  padding-top: 5.4rem;
+}
+
+/* stylelint-enable */
+
 /* Page template B */
 
-/* Media Queries */
+/* # sourceMappingURL=style.css.map */
