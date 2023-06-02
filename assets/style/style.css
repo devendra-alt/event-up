@@ -290,8 +290,6 @@ header .logo::after {
   padding-bottom: 5.6rem;
 }
 #setup-section .setup-card {
-  padding: 5.6rem 0;
-  border-radius: 1.5rem;
   color: #fff;
   background-image: url(/assets/images/setup-bg.svg);
   padding-left: 2.4rem;
@@ -301,39 +299,11 @@ header .logo::after {
   font-weight: 600;
   font-size: 2.8rem;
   line-height: 3.64rem;
-}
-#setup-section .setup-card > p {
-  padding-top: 1.6rem;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 2.8rem;
-  color: #cfcfd1;
-}
-#setup-section .setup-card .btns {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  padding-top: 3.2rem;
-}
-#setup-section .setup-card .btns > button {
-  display: block;
-  width: 100%;
-  height: 5.4rem;
-  padding: 1.4rem, 2rem, 1.4rem, 2rem;
-  border-radius: 0.8rem;
-  border: none;
-  color: #fff;
-  font-size: 1.4rem;
-  line-height: 2.6rem;
-  font-weight: 500;
-}
-#setup-section .setup-card .btns #create-conference {
-  background-color: #e14817;
-}
-#setup-section .setup-card .btns #watch-story {
-  background: transparent;
-  border: 0.1px solid #fff;
+  padding-top: 5.4rem;
 }
 
 /* stylelint-enable */
-/*# sourceMappingURL=style.css.map */
+
+/* Page template B */
+
+/* # sourceMappingURL=style.css.map */
