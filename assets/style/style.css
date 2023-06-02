@@ -165,7 +165,7 @@ header .logo::after {
   top: 15.4rem;
   left: 2.4rem;
   content: '';
-  background-image: url(/assets/images/quote.svg);
+  background-image: url(event-up/assets/images/quote.svg);
   background-size: 1.47rem 1.606rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -278,7 +278,7 @@ header .logo::after {
 #features .features-list .features-card .feature-content > ul > li::before {
   content: '';
   display: inline-block;
-  background-image: url(/assets/images/tick-circle.svg);
+  background-image: url(event-up/assets/images/tick-circle.svg);
   width: 2.4rem;
   height: 2.4rem;
 }
@@ -291,7 +291,7 @@ header .logo::after {
 }
 #setup-section .setup-card {
   color: #fff;
-  background-image: url(/assets/images/setup-bg.svg);
+  background-image: url(event-up/assets/images/setup-bg.svg);
   padding-left: 2.4rem;
   padding-right: 2.4rem;
 }
