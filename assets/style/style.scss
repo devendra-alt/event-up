@@ -352,6 +352,9 @@ header {
     border-radius: 1.5rem;
     color: #fff;
     background-image: url(/event-up/assets/images/setup-bg.svg);
+    // background-image: url(/assets/images/setup-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     @include left-right-padding-mobile();
     & > h5 {
       font-weight: 600;

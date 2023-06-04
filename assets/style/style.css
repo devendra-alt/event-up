@@ -290,6 +290,8 @@ header .logo::after {
   border-radius: 1.5rem;
   color: #fff;
   background-image: url(/event-up/assets/images/setup-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-left: 2.4rem;
   padding-right: 2.4rem;
 }
