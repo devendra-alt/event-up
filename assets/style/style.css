@@ -1,5 +1,5 @@
 /* stylelint-disable */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 /* reset  */
 * {
   padding: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* typography & colors */
@@ -40,13 +40,13 @@ header .logo > h1 {
   font-size: 1.6rem;
 }
 header .logo > h1::after {
-  content: ' .';
+  content: " .";
   font-weight: 800;
   font-size: 1.8rem;
 }
 header .logo::after {
   display: block;
-  content: '';
+  content: "";
   clear: both;
 }
 
@@ -110,7 +110,7 @@ header .logo::after {
   display: grid;
   grid-template-columns: 1fr 1fr;
   -moz-column-gap: 1.6rem;
-  column-gap: 1.6rem;
+       column-gap: 1.6rem;
   row-gap: 1.6rem;
 }
 #company-call-out .company-list .company-item {
@@ -150,7 +150,7 @@ header .logo::after {
   padding-top: 0.4rem;
 }
 #ceo-call-out .ceo-profile::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -164,8 +164,8 @@ header .logo::after {
   position: absolute;
   top: 15.4rem;
   left: 2.4rem;
-  content: '';
-  background-image: url(event-up/assets/images/quote.svg);
+  content: "";
+  background-image: url(/event-up/assets/images/quote.svg);
   background-size: 1.47rem 1.606rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -239,12 +239,8 @@ header .logo::after {
   line-height: 1.44rem;
   color: #9f9fa2;
 }
-#features
-  .features-list
-  .features-card
-  .feature-content
-  > p:first-child::before {
-  content: '';
+#features .features-list .features-card .feature-content > p:first-child::before {
+  content: "";
   display: inline-block;
   border-bottom: 0.13rem solid #9f9fa2;
   width: 1.6rem;
@@ -276,9 +272,9 @@ header .logo::after {
   margin-bottom: 0;
 }
 #features .features-list .features-card .feature-content > ul > li::before {
-  content: '';
+  content: "";
   display: inline-block;
-  background-image: url(event-up/assets/images/tick-circle.svg);
+  background-image: url(/event-up/assets/images/tick-circle.svg);
   width: 2.4rem;
   height: 2.4rem;
 }
@@ -293,7 +289,7 @@ header .logo::after {
   padding: 5.6rem 0;
   border-radius: 1.5rem;
   color: #fff;
-  background-image: url(event-up/assets/images/setup-bg.svg);
+  background-image: url(/event-up/assets/images/setup-bg.svg);
   padding-left: 2.4rem;
   padding-right: 2.4rem;
 }
@@ -336,4 +332,5 @@ header .logo::after {
 }
 
 /* stylelint-enable */
-/*# sourceMappingURL=style.css.map */
+/* Page template B */
+/* Media Queries *//*# sourceMappingURL=style.css.map */
