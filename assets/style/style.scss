@@ -206,7 +206,7 @@ header {
         top: 15.4rem;
         left: 2.4rem;
         content: '';
-        background-image: url(/assets/images/quote.svg);
+        background-image: url(/event-up/assets/images/quote.svg);
         background-size: 1.47rem 1.606rem;
         background-repeat: no-repeat;
         background-position: center;
@@ -332,7 +332,7 @@ header {
             &::before {
               content: '';
               display: inline-block;
-              background-image: url(/assets/images/tick-circle.svg);
+              background-image: url(/event-up/assets/images/tick-circle.svg);
               width: 2.4rem;
               height: 2.4rem;
             }
@@ -349,7 +349,7 @@ header {
   padding-bottom: 5.6rem;
   .setup-card {
     color: #fff;
-    background-image: url(/assets/images/setup-bg.svg);
+    background-image: url(/event-up/assets/images/setup-bg.svg);
     @include left-right-padding-mobile();
     & > h5 {
       font-weight: 600;
