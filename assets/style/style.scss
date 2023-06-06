@@ -1,4 +1,3 @@
-/* stylelint-disable */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* reset  */
@@ -142,84 +141,10 @@ header {
     row-gap: 1.6rem;
 
     .company-item {
-      // width: 14.6rem;
       height: 9.4rem;
       display: flex;
       justify-content: center;
       align-items: center;
-    }
-  }
-}
-
-#ceo-call-out {
-  padding: 5.6rem 0;
-
-  @include left-right-padding-mobile();
-  position: relative;
-
-  .ceo-profile {
-    & > img {
-      width: 5.6rem;
-      height: 5.6rem;
-      border-radius: 50%;
-      background-color: #ebecf1;
-      float: left;
-      margin-right: 1.6rem;
-    }
-
-    .ceo-details {
-      float: left;
-
-      & > p {
-        &:first-child {
-          font-weight: 600;
-          font-size: 2rem;
-          line-height: 2.8rem;
-        }
-
-        &:last-child {
-          font-weight: 400;
-          font-size: 1.4rem;
-          line-height: 2.6rem;
-          color: #57585d;
-          padding-top: 0.4rem;
-        }
-      }
-    }
-
-    &::after {
-      content: '';
-      display: block;
-      clear: both;
-    }
-  }
-
-  .ceo-message {
-    p {
-      font-weight: 500;
-      font-size: 3.2rem;
-      margin-top: 8.3rem;
-      margin-left: 5.6rem;
-
-      &::before {
-        position: absolute;
-        top: 15.4rem;
-        left: 2.4rem;
-        content: '';
-        background-image: url(/event-up/assets/images/quote.svg);
-        background-size: 1.47rem 1.606rem;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: rgba(225, 72, 23, 0.1);
-        height: 7.5rem;
-        width: 7.5rem;
-        display: block;
-        border-radius: 10rem;
-      }
-      & > img {
-        display: inline;
-        margin-bottom: 1.6rem;
-      }
     }
   }
 }
@@ -332,7 +257,7 @@ header {
             &::before {
               content: '';
               display: inline-block;
-              background-image: url(/event-up/assets/images/tick-circle.svg);
+              background-image: url(/assets/images/tick-circle.svg);
               width: 2.4rem;
               height: 2.4rem;
             }
@@ -342,47 +267,6 @@ header {
     }
   }
 }
-
-#setup-section {
-  @include left-right-padding-mobile();
-  padding-top: 2.4rem;
-  padding-bottom: 5.6rem;
-  .setup-card {
-    color: #fff;
-    // background-image: url(/event-up/assets/images/setup-bg.svg);
-    background-image: url(/assets/images/setup-bg.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    @include left-right-padding-mobile();
-    & > h5 {
-      font-weight: 600;
-      font-size: 2.8rem;
-      line-height: 3.64rem;
-      padding-top: 5.4rem;
-    }
-    & > p {
-      padding-top: 1.6rem;
-      font-size: 1.6rem;
-      line-height: 2.8rem;
-      color: #cfcfd1;
-    }
-    .setup-btns {
-      padding-top: 3.2rem;
-      & > button {
-        display: block;
-        width: 100%;
-        padding: 14px 20px 14px 20px;
-        border-radius: 0.8rem;
-        border: none;
-        margin-bottom: 1.6rem;
-      }
-      .create-conference {
-      }
-    }
-  }
-}
-
-/* stylelint-enable */
 
 /* Page template B */
 
