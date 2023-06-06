@@ -268,6 +268,130 @@ header {
   }
 }
 
+#ceo-call-out {
+  padding: 5.6rem 0;
+
+  @include left-right-padding-mobile();
+
+  #ceo-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.6rem;
+
+    & > img {
+      width: 5.6rem;
+      height: 5.6rem;
+      background: #ebecf1;
+      border-radius: 50%;
+    }
+
+    #ceo-details {
+      p {
+        &:first-child {
+          font-weight: 600;
+          font-size: 2rem;
+          line-height: 2.8rem;
+        }
+
+        &:last-child {
+          font-weight: 400;
+          font-size: 1.4rem;
+          line-height: 2.6rem;
+          color: #57585d;
+        }
+      }
+    }
+  }
+
+  #ceo-message {
+    padding: 8.3rem 2.4rem 0 3.2rem;
+
+    p {
+      font-weight: 500;
+      font-size: 3.2rem;
+      line-height: 4.8rem;
+      position: relative;
+
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -4rem;
+        left: -3.2rem;
+        width: 7.5rem;
+        height: 7.5rem;
+        background-color: rgba(225, 72, 23, 0.1);
+        background-image: url(/assets/images/quote.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10rem;
+      }
+
+      & > img {
+        margin-bottom: 1.6rem;
+      }
+    }
+  }
+}
+
+#setup-section {
+  padding: 2.4rem 0 5.6rem 0;
+
+  @include left-right-padding-mobile();
+
+  .setup-card {
+    background: url(/assets/images/setup-bg.svg);
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    color: #fff;
+
+    h5 {
+      font-size: 2.8rem;
+      font-weight: 600;
+      line-height: 3.6rem;
+      padding: 5.6rem 2.4rem 0 2.4rem;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.8rem;
+      color: #cfcfd1;
+      padding: 1.6rem 2.4rem 2.4rem 3.2rem;
+    }
+
+    .setup-btns {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+
+      @include left-right-padding-mobile();
+
+      padding-bottom: 5.6rem;
+
+      button {
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 2.6rem;
+        padding: 1.4rem 2rem;
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        border-radius: 0.8rem;
+        cursor: pointer;
+      }
+
+      #create-conference {
+        background-color: #e14817;
+      }
+
+      #watch-story {
+        border: 0.1px solid #fff;
+      }
+    }
+  }
+}
+
 /* Page template B */
 
 /* Media Queries */
